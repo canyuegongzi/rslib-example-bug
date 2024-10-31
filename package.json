@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rslib build",
     "build:script": "tsx ./script/build.ts",
-    "dev": "rsbuild dev"
+    "dev": "rsbuild dev",
+    "build:lib": "rsbuild build -c rsbuild.lib.config.ts"
   },
   "devDependencies": {
     "@rsbuild/core": "latest",
